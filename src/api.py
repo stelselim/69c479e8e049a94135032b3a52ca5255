@@ -14,10 +14,12 @@ def compare():
     lowestEuro = providerList[0].euroRate  # Initialize Wiht First
 
     for item in providerList:
-        if item.euroRate < lowestEuro:
+        # If the item's euroRate is lower than lowest, then set lowestItem = item
+        if item.euroRate < lowestEuro: 
             lowestItem = item
             lowestEuro = item.euroRate
-
+    
+    # Return Item
     resp["rates"] = {
         "TRY": lowestItem.tryRate,
         "USD": lowestItem.usdRate,
@@ -39,10 +41,12 @@ def compareWithDate(year, month, day):
     lowestEuro = providerList[0].euroRate  # Initialize Wiht First
 
     for item in providerList:
+        # If the item's euroRate is lower than lowest, then set lowestItem = item
         if item.euroRate < lowestEuro:
             lowestItem = item
             lowestEuro = item.euroRate
 
+    # Return Item
     resp["rates"] = {
         "TRY": lowestItem.tryRate,
         "USD": lowestItem.usdRate,
