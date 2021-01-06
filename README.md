@@ -1,9 +1,11 @@
-# How To Use
+# Python Flask Exchange App
 
-### Run 
->> git clone https://github.com/stelselim/69c479e8e049a94135032b3a52ca5255.git
->> cd 69c479e8e049a94135032b3a52ca5255
->> python3 main.py
+### How To Run 
+```Console
+git clone https://github.com/stelselim/69c479e8e049a94135032b3a52ca5255.git
+cd 69c479e8e049a94135032b3a52ca5255
+python3 main.py
+```
 
 ### Latest Exchange Rates
 Go to http://127.0.0.1:8080/
