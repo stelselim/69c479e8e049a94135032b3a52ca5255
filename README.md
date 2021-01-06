@@ -1,5 +1,12 @@
 # Python Flask Exchange App
 
+### Required Python3 Packages
+* flask
+* xmltodict 
+* requests
+
+
+
 ### How To Run 
 ```Console
 git clone https://github.com/stelselim/69c479e8e049a94135032b3a52ca5255.git
