@@ -9,8 +9,8 @@
 
 ### How To Run 
 ```Console
-git clone https://github.com/stelselim/69c479e8e049a94135032b3a52ca5255.git
-cd 69c479e8e049a94135032b3a52ca5255
+git clone https://github.com/stelselim/Python-Flask-Currency-App
+cd Python-Flask-Currency-App
 python3 main.py
 ```
 
